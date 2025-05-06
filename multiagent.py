@@ -91,14 +91,7 @@ config = {
         "session_id": "user_123"  # Needed for RunnableWithMessageHistory
     }
 }
-# 4. Continuous chat with memory
-print("Chat with memory (type 'quit' to exit)\n")
-config = {
-    "configurable": {
-        "thread_id": "terminal_session_1",  # Could make this user-specific
-        "session_id": "user_123"  # Needed for RunnableWithMessageHistory
-    }
-}
+
 while True:
     # Get user input from terminal
     try:
