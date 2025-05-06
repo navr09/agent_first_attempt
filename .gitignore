@@ -1,0 +1,38 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+*.env
+.env.local
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# Testing files
+.coverage
+htmlcov/
